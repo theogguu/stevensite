@@ -1,0 +1,51 @@
+html,body{
+    margin:0;
+}
+
+.page-wrapper {
+    background-color: black;
+    margin: 0; 
+    padding: 0; 
+}
+
+.sticky-column {
+    position: sticky;
+    height: 20rem;
+    top: 5rem;
+  }
+
+.content {
+    height: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    display: block;
+    background: black;
+}
+
+.title {
+    color: white;
+    /* 10 vh */
+    font-size: 3rem; 
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.body {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.icons {
+    display: flex;
+}
+
+#one {
+    color: white;
+    font-size: 1rem;
+}
