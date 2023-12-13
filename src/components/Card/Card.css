@@ -1,0 +1,49 @@
+.project-card {
+    background-color: rgb(32, 13, 56, 0.7);
+    padding: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); */
+  }
+
+.project-card a {
+    text-decoration: none;
+}
+  
+.project-card h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.project-card p {
+    color: white;
+}
+
+.project-card:hover {
+    background-color: rgb(48, 28, 73);
+    box-shadow: rgb(39, 23, 59, 0.5);
+  }
+
+.project-card-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card-subheading{
+    margin: 0;
+    padding: 0;
+}
+
+.project-card-icon {
+    align-self: flex-start;
+}
+
+.project-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}

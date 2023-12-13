@@ -3,15 +3,28 @@ html,body{
 }
 
 .page-wrapper {
-    background-color: black;
-    margin: 0; 
-    padding: 0; 
+    animation: moveBackground 125s infinite linear;
+    background-image:  radial-gradient(#603c9f 1.15px, transparent 1.15px), radial-gradient(#603c9f 1.15px, #180234 1.15px);
+    background-size: 46px 46px;
+    background-attachment: fixed; 
 }
 
+@keyframes moveBackground {
+    from {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0 0;
+    }
+  }
+
 .sticky-column {
+    padding-left: 0;
+    padding-right: 10rem;
     position: sticky;
     height: 20rem;
     top: 5rem;
+    background-color: rgb(24, 2, 52, 0.5);
   }
 
 .content {
@@ -21,7 +34,7 @@ html,body{
     padding-top: 5rem;
     padding-bottom: 8rem;
     display: block;
-    background: black;
+    /* background: black; */
 }
 
 .title {
@@ -35,10 +48,14 @@ html,body{
 
 .body {
     color: white;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 400;
     text-align: left;
     margin-bottom: 2rem;
+}
+
+.body p {
+    font-size: 1 rem;
 }
 
 .icons {
