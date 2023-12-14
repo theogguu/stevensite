@@ -2,6 +2,7 @@ import "./HomePage.css";
 import IconButton from "../IconButton/IconButton";
 import Card from "../Card/Card";
 
+
 const HomePage = () => {
   return (
     <div className="page-wrapper">
@@ -41,6 +42,7 @@ const HomePage = () => {
             <div className="col">
               <Card
                 title="About Me"
+                time="August 2021 - Present"
                 body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
                 earum tempora quam, maiores obcaecati officia dolorem corporis
                 illum similique neque odit sapiente explicabo laudantium
@@ -50,6 +52,7 @@ const HomePage = () => {
                   href="https://github.com/theogguu"
                 />}
                 href="https://steven-gu.com"
+                tags={["React", "Node.js", "Express", "MongoDB"]}
               />
               <Card
                 title="About Me"

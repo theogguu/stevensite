@@ -12,13 +12,13 @@
     text-decoration: none;
 }
   
-.project-card h2 {
+.project-card h1, h2, h3, h4 {
     margin-bottom: 10px;
     color: white;
 }
 
 .project-card p {
-    color: white;
+    color: rgb(200, 200, 200);
 }
 
 .project-card:hover {
