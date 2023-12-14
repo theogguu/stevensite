@@ -1,7 +1,8 @@
 import "./Card.css";
 import IconButton from "../IconButton/IconButton";
+import Tag from "../Tag/Tag"
 
-const Card = ({ title, body, icon, href }) => {
+const Card = ({ title, time, body, icon, href }) => {
   return (
     <div className="project-card">
       <div className="project-card-heading">
@@ -19,7 +20,7 @@ const Card = ({ title, body, icon, href }) => {
         </p>
       </div>
       <div className="project-card-footer">
-        <p>bees</p>
+        <Tag name="CSS" />
       </div>
     </div>
   );
