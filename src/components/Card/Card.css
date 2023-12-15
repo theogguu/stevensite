@@ -9,7 +9,7 @@
     /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); */
   }
   
-.project-card h1, h2, h3, h4 {
+.project-card h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
     color: white;
 }

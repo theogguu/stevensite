@@ -17,8 +17,7 @@ const HomePage = () => {
                 <hr></hr>
                 <p>
                   I'm an fourth-year student studying Computer Science and
-                  Biology at Northwestern University. Outside of my studies, I'm
-                  an avid home cook, violinist, gamer, and TTRPG enthusiast.
+                  Biology at Northwestern University. I'm also an avid home cook, violinist, gamer, and TTRPG enthusiast.
                 </p>
               </div>
               <div className="icons">
@@ -42,64 +41,64 @@ const HomePage = () => {
             </div>
             <div className="col">
               <Card
-                title="About Me"
-                time="August 2021 - Present"
-                body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-                earum tempora quam, maiores obcaecati officia dolorem corporis
-                illum similique neque odit sapiente explicabo laudantium
-                reprehenderit numquam itaque hic assumenda quas?"
-                icon={<IconButton
-                  icon="bi bi-github"
-                  href="https://github.com/theogguu"
-                />}
-                href="https://steven-gu.com"
-                tags={["React", "Node.js", "Express", "MongoDB"]}
+                title="Developer • Crafty"
+                time="September 2023 - December 2023"
+                body='Designed and developed a GPT-powered webservice dedicated to assisting users in crafting woodworking projects by providing
+                users with instructions, materials, and purchase links given a query (e.g. "coffee table").'
+                tags={["Flask", "JavaScript", "Python", "HTML", "CSS"]}
               />
               <Card
-                title="About Me"
-                body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-                earum tempora quam, maiores obcaecati officia dolorem corporis
-                illum similique neque odit sapiente explicabo laudantium
-                reprehenderit numquam itaque hic assumenda quas?"
+                title="Software Engineer Intern • New Muses Project"
+                time="July 2023 - September 2023"
+                body="Designed Remix components adhering to design specifications to standardize future webpage development. Developed Flask-based APIs for front-end to MongoDB back-end interaction and automated MongoDB backups."
+                href="https://www.newmusesproject.com/"
+                tags={["Remix", "MongoDB", "Flask", "JavaScript", "HTML", "CSS"]}
+              />
+              <Card
+                title="Developer • PhotoApp"
+                time="June 2023"
+                body="Developed a multi-tier photo storage app by integrating a Python client, a Node.js/Express.js-based
+                webservice, and AWS. Fully documented RESTful API."
+                href="https://github.com/theogguu/aws-photoapp"
                 icon={<IconButton
                   icon="bi bi-github"
-                  href="https://github.com/theogguu"
+                  href="https://github.com/theogguu/aws-photoapp"
                 />}
-                href="https://steven-gu.com"
+                tags={["RESTful API", "AWS", "Node.js", "Express.js", "Python", "JavaScript"]}
               />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officia delectus sapiente animi molestias vel sequi culpa
-                blanditiis ipsam id beatae veritatis quisquam ut dicta dolor ab
-                eius magnam, ipsa repellendus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officia delectus sapiente animi molestias vel sequi culpa
-                blanditiis ipsam id beatae veritatis quisquam ut dicta dolor ab
-                eius magnam, ipsa repellendus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officia delectus sapiente animi molestias vel sequi culpa
-                blanditiis ipsam id beatae veritatis quisquam ut dicta dolor ab
-                eius magnam, ipsa repellendus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officia delectus sapiente animi molestias vel sequi culpa
-                blanditiis ipsam id beatae veritatis quisquam ut dicta dolor ab
-                eius magnam, ipsa repellendus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officia delectus sapiente animi molestias vel sequi culpa
-                blanditiis ipsam id beatae veritatis quisquam ut dicta dolor ab
-                eius magnam, ipsa repellendus.
-              </p>
+
+<Card
+                title="Developer • Campus Kitchens NU"
+                time="April 2023 - May 2023"
+                body="Led development on a full-stack web application using React frontend and Node.js/Express backend to manage food inventory, shift records, and user records for Northwestern University’s Campus Kitchen."
+                tags={["AWS", "React", "JavaScript", "HTML", "CSS", "Bootstrap"]}
+              />
+              
+            <Card
+                title="Rapid Prototyping Projects"
+                body="Designed 3 standalone React webapps in a 6 week time period. Each webapp interacted with Firebase storage and databases."
+                href="https://github.com/theogguu/stevensite-2"
+                icon={<IconButton
+                  icon="bi bi-github"
+                  href="https://github.com/theogguu/stevensite-2"
+                />}
+                tags={["Firebase", "React", "JavaScript", "HTML", "CSS", "Bootstrap"]}
+              />
+
+            <Card
+                title="Portfolio Website"
+                body="I had a lot of fun designing this website!"
+                href="https://github.com/theogguu/stevensite-2"
+                icon={<IconButton
+                  icon="bi bi-github"
+                  href="https://github.com/theogguu/stevensite-2"
+                />}
+                tags={["React", "JavaScript", "HTML", "CSS"]}
+              />
+              
             <div className="footer">
               <hr></hr>
-              Built with Bootstrap, React, and Node.js and deployed with Vercel. 
+              Built with Bootstrap, React, and Node.js and deployed with Firebase. 
               Favicon generated by <a href="https://favicon.io/">favicon.io</a>. Website design inspired by <a href="https://brittanychiang.com/">Brittany Chang</a>.
             </div>
             </div>

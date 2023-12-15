@@ -6,10 +6,10 @@ const Card = ({ title, time, body, icon, href, tags }) => {
   return (
     <div className="project-card">
       <div className="project-card-heading">
-        <h4>
-          <a href={href}>{title}</a>
-        </h4>
-        <div className="project-card-icon">{icon}</div>
+        <h5>
+          <a href={href} target="_blank">{title}</a>
+        </h5>
+        {icon && <div className="project-card-icon">{icon}</div>}
       </div>
       <div className="project-card-subheading">
         <p>{time}</p>
