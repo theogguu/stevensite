@@ -1,15 +1,28 @@
 import "./HomePage.css";
+import {useState} from "react";
 import IconButton from "../IconButton/IconButton";
 import Card from "../Card/Card";
 import Headshot from "../Headshot/Headshot";
+import Modal from "../Modal/Modal";
 
 const HomePage = () => {
+  const [open, setOpen] = useState(false);
+  const openModal = () => setOpen(true);
+  const closeModal = () => setOpen(false);
+
   return (
     <div className="page-wrapper">
+      
       <div className="content">
+      
+      <Modal open={open} close={closeModal}>
+        Hi
+      </Modal>
         <div className="container">
           <div className="row">
             <div className="col-6 sticky-column">
+            <button className="btn btn-outline-light" onClick={openModal}></button>
+      
               <p id="one">Hi, I'm</p>
               <div className="title">Steven Gu</div>
               <Headshot src="/linkedin.jpg" alt="Steven Gu" size="150px" />
