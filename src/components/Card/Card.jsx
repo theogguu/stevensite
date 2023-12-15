@@ -6,9 +6,9 @@ const Card = ({ title, time, body, icon, href, tags }) => {
   return (
     <div className="project-card">
       <div className="project-card-heading">
-        <a href={href}>
-          <h4>{title}</h4>
-        </a>
+        <h4>
+          <a href={href}>{title}</a>
+        </h4>
         <div className="project-card-icon">{icon}</div>
       </div>
       <div className="project-card-subheading">

@@ -1,12 +1,26 @@
 html,body{
     margin:0;
+    color: rgb(200, 200, 200);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+a:hover {
+    /* text-decoration: underline;  */
+    color: #9c64fe
 }
 
 .page-wrapper {
-    animation: moveBackground 125s infinite linear;
+    animation: moveBackground 100s infinite linear;
     background-image:  radial-gradient(#603c9f 1.15px, transparent 1.15px), radial-gradient(#603c9f 1.15px, #180234 1.15px);
     background-size: 46px 46px;
+    
     background-attachment: fixed; 
+    opacity: 0.9;
 }
 
 @keyframes moveBackground {
@@ -32,18 +46,17 @@ html,body{
     margin-left: 5rem;
     margin-right: 5rem;
     padding-top: 5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
     display: block;
     /* background: black; */
 }
 
 .title {
     color: white;
-    /* 10 vh */
     font-size: 3rem; 
     font-weight: 700;
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .body {
@@ -62,6 +75,11 @@ html,body{
     display: flex;
 }
 
+.footer {
+    padding-top:2rem;
+    padding-bottom:1rem;
+    
+}
 #one {
     color: white;
     font-size: 1rem;
