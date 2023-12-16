@@ -1,26 +1,40 @@
+:root {
+    /* --bg-dark-1: #180234;
+    --primary-1: #603c9f;
+    --light-primary-1: #9c64fe;
+    --text-muted: #c8c8c8;
+    --text-emphasis: white; */
+    --bg-dark-1: rgb(24, 2, 52);
+    --bg-dark-1-alpha: rgba(24, 2, 52, 0.3);
+    --primary-1: rgb(96, 60, 159);
+    --light-primary-1: rgb(156, 100, 254);
+
+    --text-muted: rgb(200, 200, 200);
+    --text-emphasis: rgb(255, 255, 255);
+    --text-highlighted: rgb(156, 100, 254);
+
+    --card-unhighlighted: rgb(32, 13, 56, 0.7);
+    --card-highlighted: rgb(48, 28, 73);
+    --card-shadow: rgb(39, 23, 59, 0.5);
+
+    --modal-bg: rgb(14, 0, 38);
+    --modal-accent: rgb(136, 106, 185); /* Example: Slightly desaturated version of --light-primary-1 */
+    --modal-highlight: var(--text-highlighted);
+
+}
+
 html,body{
     margin:0;
-    color: rgb(200, 200, 200);
+    color: var(--white-muted);
+    height: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-}
-
-a:hover {
-    /* text-decoration: underline;  */
-    color: #9c64fe
-}
-
-.page-wrapper {
+body {
     animation: moveBackground 100s infinite linear;
-    background-image:  radial-gradient(#603c9f 1.15px, transparent 1.15px), radial-gradient(#603c9f 1.15px, #180234 1.15px);
-    background-size: 46px 46px;
-    
+    background-image:  radial-gradient(var(--primary-1) 1.15px, transparent 1.15px), radial-gradient(var(--primary-1) 1.15px, var(--bg-dark-1) 1.15px);
+    background-size: 46px 46px; 
     background-attachment: fixed; 
-    opacity: 0.9;
+    opacity: 1;
 }
 
 @keyframes moveBackground {
@@ -32,28 +46,39 @@ a:hover {
     }
   }
 
+a {
+    text-decoration: none;
+    color: var(--text-emphasis);
+    font-weight: 500;
+}
+
+    a:hover {
+        /* text-decoration: underline;  */
+        color: var(--light-primary-1);
+    }
+
 .sticky-column {
     padding-left: 0;
-    padding-right: 10rem;
+    padding-right: 4rem;
+    max-width: 40vw;
     position: sticky;
     height: 20rem;
-    top: 5rem;
-    background-color: rgb(24, 2, 52, 0.5);
+    top: 3rem;
+    background-color: var(--bg-dark-1-alpha);
     text-align: center;
   }
 
 .content {
     height: 100%;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     display: block;
-    /* background: black; */
 }
 
 .title {
-    color: white;
+    color: var(--text-emphasis);
     font-size: 3rem; 
     font-weight: 700;
     /* text-align: left; */
@@ -61,7 +86,7 @@ a:hover {
 }
 
 .body {
-    color: white;
+    color: var(--text-emphasis);
     /* font-size: 1.5rem; */
     font-weight: 400;
     margin-bottom: 2rem;
@@ -81,7 +106,7 @@ a:hover {
     
 }
 #one {
-    color: white;
+    color: var(--text-emphasis);
     font-size: 1rem;
     text-align: left;
 }

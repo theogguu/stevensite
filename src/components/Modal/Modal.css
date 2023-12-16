@@ -1,27 +1,26 @@
 .modal {
     display: block;
     visibility: hidden;
-    
+    padding: 3rem;
   }
   .modal-dialog {
-    background-color: #180234;
-    border-radius: 8px;
-    padding: 16px;
-    max-width: 600px;
+    background-color: var(--modal-bg);
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 40rem;
     margin: auto;
   }
 
   .modal-content {
     background-color: #180234;
-    border-radius: 8px;
-    padding: 16px;
-    max-width: 600px;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 40rem;
     margin: auto;
   }
 
   .modal-header {
     text-align: left;
-    /* margin-left: auto; */
   }
 
   .modal-content  {
@@ -31,14 +30,14 @@
   .modal-show {
     visibility:visible;
     background-color: rgba(169, 169, 169, 0.2);
-    transition: opacity 0.2s ease-in-out; 
+    transition: opacity 0.3s ease-in-out; 
   } 
   
  
   
   .modal-show .modal-content  {
     opacity: 1; 
-    transition: 0.2s ease-in-out; 
+    transition: 0.3s ease-in-out; 
   }
   
   

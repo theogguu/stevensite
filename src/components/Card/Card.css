@@ -1,30 +1,31 @@
 .project-card {
-    background-color: rgb(32, 13, 56, 0.7);
+    background-color: var(--card-unhighlighted);
     padding: 2rem;
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 10px;
-    color: white;
+    color: var(--text-emphasis);
     transition: all 0.3s;
     /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); */
   }
   
 .project-card h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
-    color: white;
+    color: var(--text-emphasis);
 }
 
 .project-card a:hover {
-    color: #9c64fe;
+    color: var(--text-highlighted);
 }
 
 .project-card p {
-    color: rgb(200, 200, 200);
+    color: var(--text-muted);
 }
 
 .project-card:hover {
-    background-color: rgb(48, 28, 73);
-    box-shadow: rgb(39, 23, 59, 0.5);
+    background-color: var(--card-highlighted);
+    box-shadow: var(--card-shadow);
+    cursor: pointer;
   }
 
 .project-card-heading{

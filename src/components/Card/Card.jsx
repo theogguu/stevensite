@@ -2,12 +2,28 @@ import "./Card.css";
 import IconButton from "../IconButton/IconButton";
 import TagList from "../Tag/TagList";
 
-const Card = ({ title, time, body, icon, href, tags }) => {
+const Card = ({ title, time, body, icon, href, tags, onClick }) => {
+  const handleCardClick = (e) => {
+    // Check if the click target is the anchor, if so, let the browser handle it
+    if (e.target.tagName.toLowerCase() === "a" && href) {
+      return;
+    }
+
+    // Handle the click for the entire card
+    if (onClick) {
+      onClick();
+    }
+  };
+
   return (
-    <div className="project-card">
+    <div className="project-card" onClick={handleCardClick}>
       <div className="project-card-heading">
         <h5>
-          <a href={href} target="_blank">{title}</a>
+          <a href={href} target="_blank">
+            <span>{title} </span>
+            {href && <i class="bi bi-box-arrow-up-right"></i>}
+            {/* render box-arrow icon only if href exists */}
+          </a>
         </h5>
         {icon && <div className="project-card-icon">{icon}</div>}
       </div>
