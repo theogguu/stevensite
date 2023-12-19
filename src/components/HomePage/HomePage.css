@@ -17,9 +17,10 @@
     --card-highlighted: rgb(48, 28, 73);
     --card-shadow: rgb(39, 23, 59, 0.5);
 
-    --modal-bg: rgb(14, 0, 38);
+    --modal-bg: rgb(46, 19, 78);
     --modal-accent: rgb(136, 106, 185); /* Example: Slightly desaturated version of --light-primary-1 */
     --modal-highlight: var(--text-highlighted);
+    --modal-unfocused: rgba(169, 169, 169, 0.2);
 
 }
 

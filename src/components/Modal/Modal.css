@@ -2,18 +2,19 @@
     display: block;
     visibility: hidden;
     padding: 3rem;
+    color: var(--text-emphasis);
   }
   .modal-dialog {
     background-color: var(--modal-bg);
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     padding: 1rem;
     max-width: 40rem;
     margin: auto;
   }
 
   .modal-content {
-    background-color: #180234;
-    border-radius: 1rem;
+    background-color: var(--modal-bg);
+    border: none;
     padding: 1rem;
     max-width: 40rem;
     margin: auto;
@@ -29,12 +30,10 @@
   
   .modal-show {
     visibility:visible;
-    background-color: rgba(169, 169, 169, 0.2);
+    background-color: var(--modal-unfocused);
     transition: opacity 0.3s ease-in-out; 
   } 
-  
- 
-  
+    
   .modal-show .modal-content  {
     opacity: 1; 
     transition: 0.3s ease-in-out; 
