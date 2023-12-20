@@ -102,12 +102,13 @@ a {
 }
 
 .footer {
+    color: var(--text-muted);
     padding-top:2rem;
     padding-bottom:1rem;
-    
 }
 #one {
     color: var(--text-emphasis);
     font-size: 1rem;
     text-align: left;
 }
+

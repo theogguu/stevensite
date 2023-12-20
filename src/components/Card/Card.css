@@ -49,3 +49,7 @@
     padding: 0;
     margin: 0;
 }
+
+.modal-body a {
+    text-decoration: underline;
+}
