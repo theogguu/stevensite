@@ -4,14 +4,15 @@
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 10px;
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     transition: all 0.3s;
+    outline: var(--card-outline-unhighlighted) solid 1px;
     /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); */
   }
   
 .project-card h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
-    color: var(--text-emphasis);
+    color: var(--text-normal);
 }
 
 .project-card a:hover {
@@ -19,13 +20,14 @@
 }
 
 .project-card p {
-    color: var(--text-muted);
+    color: var(--text-normal);
 }
 
 .project-card:hover {
     background-color: var(--card-highlighted);
     box-shadow: var(--card-shadow);
     cursor: pointer;
+    outline: var(--card-outline-highlighted) solid 1px;
   }
 
 .project-card-heading{

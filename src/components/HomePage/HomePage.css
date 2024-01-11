@@ -2,25 +2,79 @@
     /* --bg-dark-1: #180234;
     --primary-1: #603c9f;
     --light-primary-1: #9c64fe;
-    --text-muted: #c8c8c8;
-    --text-emphasis: white; */
-    --bg-dark-1: rgb(24, 2, 52);
-    --bg-dark-1-alpha: rgba(24, 2, 52, 0.3);
-    --primary-1: rgb(96, 60, 159);
-    --light-primary-1: rgb(156, 100, 254);
+    --text-normal: #c8c8c8;
+    --text-normal: white; */
+    /* --bg-dark-1: rgb(24, 2, 52); */
+    --iris-1: #13131e;
+    --iris-2: #171625;
+    --iris-3: #202248;
+    --iris-4: #262a65;
+    --iris-5: #303374;
+    --iris-6: #3d3e82;
+    --iris-7: #4a4a95;
+    --iris-8: #5958b1;
+    --iris-9: #5b5bd6;
+    --iris-10: #6e6ade;
+    --iris-11: #b1a9ff;
+    --iris-12: #e0dffe;
+    --iris-a1: #3636fe0e;
+    --iris-a2: #564bf916;
+    --iris-a3: #525bff3b;
+    --iris-a4: #4d58ff5a;
+    --iris-a5: #5b62fd6b;
+    --iris-a6: #6d6ffd7a;
+    --iris-a7: #7777fe8e;
+    --iris-a8: #7b7afeac;
+    --iris-a9: #6a6afed4;
+    --iris-a10: #7d79ffdc;
+    --iris-a11: #b1a9ff;
+    --iris-a12: #e1e0fffe;
+    --slate-1: #111113;
+    --slate-2: #18191b;
+    --slate-3: #212225;
+    --slate-4: #272a2d;
+    --slate-5: #2e3135;
+    --slate-6: #363a3f;
+    --slate-7: #43484e;
+    --slate-8: #5a6169;
+    --slate-9: #696e77;
+    --slate-10: #777b84;
+    --slate-11: #b0b4ba;
+    --slate-12: #edeef0;
+    --slate-a0: #00000037;
+    --slate-a1: #00000000;
+    --slate-a2: #d8f4f609;
+    --slate-a3: #ddeaf814;
+    --slate-a4: #d3edf81d;
+    --slate-a5: #d9edfe25;
+    --slate-a6: #d6ebfd30;
+    --slate-a7: #d9edff40;
+    --slate-a8: #d9edff5d;
+    --slate-a9: #dfebfd6d;
+    --slate-a10: #e5edfd7b;
+    --slate-a11: #f1f7feb5;
+    --slate-a12: #fcfdffef;
 
-    --text-muted: rgb(200, 200, 200);
-    --text-emphasis: rgb(255, 255, 255);
-    --text-highlighted: rgb(156, 100, 254);
+    --bg-dark-1: var(--iris-3);
+    /* --bg-dark-1-alpha: var(--iris-a1); */
+    --primary-1: var(--iris-4);
+    --light-primary-1: var(--iris-5);
 
-    --card-unhighlighted: rgb(32, 13, 56, 0.7);
-    --card-highlighted: rgb(48, 28, 73);
-    --card-shadow: rgb(39, 23, 59, 0.5);
+    --text-muted: var(--slate-12);
+    --text-normal: var(--iris-12);
+    --text-emphasis: #ffffff;
+    --text-highlighted: var(--iris-a10);
 
-    --modal-bg: rgb(46, 19, 78);
-    --modal-accent: rgb(136, 106, 185); /* Example: Slightly desaturated version of --light-primary-1 */
+    --card-unhighlighted: var(--iris-4);
+    --card-highlighted: var(--iris-5);
+    --card-outline-unhighlighted: var(--slate-a2);
+    --card-outline-highlighted: var(--slate-a10);
+    --card-shadow: var(--slate-a2);
+
+    --modal-bg: var(--iris-4);
+    --modal-accent: var(iris-5); 
     --modal-highlight: var(--text-highlighted);
-    --modal-unfocused: rgba(169, 169, 169, 0.2);
+    --modal-unfocused: var(--slate-a0);
 
 }
 
@@ -32,7 +86,7 @@ html,body{
 
 body {
     animation: moveBackground 100s infinite linear;
-    background-image:  radial-gradient(var(--primary-1) 1.15px, transparent 1.15px), radial-gradient(var(--primary-1) 1.15px, var(--bg-dark-1) 1.15px);
+    background-image:  radial-gradient(var(--slate-11) 1.15px, transparent 1.15px), radial-gradient(var(--slate-5) 1.15px, var(--bg-dark-1) 1.15px);
     background-size: 46px 46px; 
     background-attachment: fixed; 
     opacity: 1;
@@ -49,7 +103,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     font-weight: 500;
 }
 
@@ -79,7 +133,7 @@ a {
 }
 
 .title {
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     font-size: 3rem; 
     font-weight: 700;
     /* text-align: left; */
@@ -87,7 +141,7 @@ a {
 }
 
 .body {
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     /* font-size: 1.5rem; */
     font-weight: 400;
     margin-bottom: 2rem;
@@ -102,12 +156,12 @@ a {
 }
 
 .footer {
-    color: var(--text-muted);
+    color: var(--text-normal);
     padding-top:2rem;
     padding-bottom:1rem;
 }
 #one {
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     font-size: 1rem;
     text-align: left;
 }

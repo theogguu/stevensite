@@ -10,6 +10,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "@radix-ui/colors": "^3.0.0",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.2",
     "react": "^18.2.0",
