@@ -100,6 +100,15 @@ a {
 
 .icons {
     display: flex;
+    flex-direction: row;
+}
+
+.resume {
+    color: var(--text-normal);
+}
+
+.resume:hover {
+    color: var(--text-highlighted);
 }
 
 .footer {

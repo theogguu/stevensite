@@ -35,23 +35,28 @@ const HomePage = () => {
                 violinist, gamer, and TTRPG enthusiast.
               </p>
             </div>
-            <div className="icons">
-              <IconButton
-                icon="bi bi-github"
-                href="https://github.com/theogguu"
-              />
-              <IconButton
-                icon="bi bi-linkedin"
-                href="https://www.linkedin.com/in/steven-gu/"
-              />
-              <IconButton
-                icon="bi bi-instagram "
-                href="https://www.instagram.com/theogguu/"
-              />
-              <IconButton
-                icon="bi bi-envelope "
-                href="mailto:stevengu2024@u.northwestern.edu"
-              />
+            <div className="row sticky-footer">
+              <div className="col-8 icons">
+                <IconButton
+                  icon="bi bi-github"
+                  href="https://github.com/theogguu"
+                />
+                <IconButton
+                  icon="bi bi-linkedin"
+                  href="https://www.linkedin.com/in/steven-gu/"
+                />
+                <IconButton
+                  icon="bi bi-instagram "
+                  href="https://www.instagram.com/theogguu/"
+                />
+                <IconButton
+                  icon="bi bi-envelope "
+                  href="mailto:stevengu2024@u.northwestern.edu"
+                />
+                </div>
+              <div className="col-4 resume">
+                <a href="/steven_gu_resume_fa23.pdf" target="_blank"><i>view my resume!</i></a>
+              </div>
             </div>
           </div>
           <div className="col">

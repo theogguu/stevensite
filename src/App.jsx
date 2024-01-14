@@ -3,6 +3,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
+import ResumePage from './components/ResumePage/ResumePage';
 
 
 const Main = () => {
@@ -10,7 +11,6 @@ const Main = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/edit/:id" element={<EditFormForUrl profile={profile} courses={data.courses} />} /> */}
       </Routes>
     </BrowserRouter>
   );
