@@ -61,10 +61,10 @@ a {
 .sticky-column {
     padding-left: 0;
     padding-right: 4rem;
-    max-width: 40vw;
+    max-width: 50vw;
     position: sticky;
-    height: 75vh;
-    border-radius: 5rem;
+    max-height: 80vh;
+    border-radius: 3rem;
     top: 3rem;
     background-color: var(--bg-dark-1-alpha);
     text-align: center;
@@ -72,8 +72,8 @@ a {
 
 .content {
     height: 100%;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
     display: block;

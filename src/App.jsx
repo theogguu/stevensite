@@ -3,7 +3,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
-import ResumePage from './components/ResumePage/ResumePage';
 
 
 const Main = () => {
