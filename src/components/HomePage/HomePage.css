@@ -1,38 +1,38 @@
+@import '../colors.css';
+
 :root {
-    /* --bg-dark-1: #180234;
-    --primary-1: #603c9f;
-    --light-primary-1: #9c64fe;
-    --text-muted: #c8c8c8;
-    --text-emphasis: white; */
-    --bg-dark-1: rgb(24, 2, 52);
-    --bg-dark-1-alpha: rgba(24, 2, 52, 0.3);
-    --primary-1: rgb(96, 60, 159);
-    --light-primary-1: rgb(156, 100, 254);
+    --bg-dark-1: var(--violet-3);
+    --bg-dark-1-alpha: var(--violet-a3-bg);
+    --primary-1: var(--violet-4);
+    --light-primary-1: var(--violet-5);
 
-    --text-muted: rgb(200, 200, 200);
-    --text-emphasis: rgb(255, 255, 255);
-    --text-highlighted: rgb(156, 100, 254);
+    --text-grey: var(--mauve-12);
+    --text-normal: var(--violet-12);
+    --text-emphasis: #ffffff;
+    --text-highlighted: var(--violet-a10);
 
-    --card-unhighlighted: rgb(32, 13, 56, 0.7);
-    --card-highlighted: rgb(48, 28, 73);
-    --card-shadow: rgb(39, 23, 59, 0.5);
+    --card-unhighlighted: var(--violet-4);
+    --card-highlighted: var(--violet-5);
+    --card-outline-unhighlighted: var(--mauve-a2);
+    --card-outline-highlighted: var(--mauve-a10);
+    --card-shadow: var(--mauve-a2);
 
-    --modal-bg: rgb(46, 19, 78);
-    --modal-accent: rgb(136, 106, 185); /* Example: Slightly desaturated version of --light-primary-1 */
+    --modal-bg: var(--violet-4);
+    --modal-accent: var(violet-5); 
     --modal-highlight: var(--text-highlighted);
-    --modal-unfocused: rgba(169, 169, 169, 0.2);
+    --modal-unfocused: var(--mauve-a3);
 
+    --bg-dots: var(--violet-11);
 }
 
 html,body{
     margin:0;
-    color: var(--white-muted);
     height: 100%;
 }
 
 body {
     animation: moveBackground 100s infinite linear;
-    background-image:  radial-gradient(var(--primary-1) 1.15px, transparent 1.15px), radial-gradient(var(--primary-1) 1.15px, var(--bg-dark-1) 1.15px);
+    background-image:  radial-gradient(var(--bg-dots) 1.15px, transparent 1.15px), radial-gradient(var(--bg-dots) 1.15px, var(--bg-dark-1) 1.15px);
     background-size: 46px 46px; 
     background-attachment: fixed; 
     opacity: 1;
@@ -49,21 +49,22 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     font-weight: 500;
 }
 
     a:hover {
-        /* text-decoration: underline;  */
-        color: var(--light-primary-1);
+        text-decoration: underline; 
+        color: var(--text-highlighted);
     }
 
 .sticky-column {
     padding-left: 0;
     padding-right: 4rem;
-    max-width: 40vw;
+    max-width: 50vw;
     position: sticky;
-    height: 20rem;
+    max-height: 80vh;
+    border-radius: 3rem;
     top: 3rem;
     background-color: var(--bg-dark-1-alpha);
     text-align: center;
@@ -71,15 +72,15 @@ a {
 
 .content {
     height: 100%;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
     display: block;
 }
 
 .title {
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     font-size: 3rem; 
     font-weight: 700;
     /* text-align: left; */
@@ -87,7 +88,7 @@ a {
 }
 
 .body {
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     /* font-size: 1.5rem; */
     font-weight: 400;
     margin-bottom: 2rem;
@@ -99,16 +100,24 @@ a {
 
 .icons {
     display: flex;
+    flex-direction: row;
+}
+
+.resume {
+    color: var(--text-normal);
+}
+
+.resume:hover {
+    color: var(--text-highlighted);
 }
 
 .footer {
-    color: var(--text-muted);
+    color: var(--text-normal);
     padding-top:2rem;
     padding-bottom:1rem;
 }
 #one {
-    color: var(--text-emphasis);
+    color: var(--text-normal);
     font-size: 1rem;
     text-align: left;
 }
-

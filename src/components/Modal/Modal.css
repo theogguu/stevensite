@@ -2,7 +2,7 @@
     display: block;
     visibility: hidden;
     padding: 3rem;
-    color: var(--text-emphasis);
+    color: var(--text-normal);
   }
   .modal-dialog {
     background-color: var(--modal-bg);

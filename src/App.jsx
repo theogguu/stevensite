@@ -10,7 +10,6 @@ const Main = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/edit/:id" element={<EditFormForUrl profile={profile} courses={data.courses} />} /> */}
       </Routes>
     </BrowserRouter>
   );
