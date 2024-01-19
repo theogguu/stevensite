@@ -72,8 +72,10 @@ a {
 
 .content {
     height: 100%;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 3rem;
     padding-bottom: 2rem;
     display: block;
@@ -89,7 +91,7 @@ a {
 
 .body {
     color: var(--text-normal);
-    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 2rem;
 }
@@ -98,18 +100,28 @@ a {
     font-size: 1 rem;
 }
 
+.profile-footer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
+    margin-right: auto;
 }
 
 .resume {
     color: var(--text-normal);
+    margin-left: auto;
 }
 
 .resume:hover {
     color: var(--text-highlighted);
 }
+
+
 
 .footer {
     color: var(--text-normal);
@@ -118,6 +130,6 @@ a {
 }
 #one {
     color: var(--text-normal);
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: left;
 }
