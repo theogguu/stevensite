@@ -1,8 +1,8 @@
 import './IconButton.css'
 
-const IconButton = ({ icon, href, color="white", onClick}) => (
+const IconButton = ({ icon, href, alt, color="white", onClick}) => (
     <div className="icon-button" onClick={onClick} style={{ cursor: 'pointer' }}>
-        <a href={href} target="_blank">
+        <a href={href} target="_blank" alt={alt}>
             <i className={icon}></i>
         </a>
     </div>

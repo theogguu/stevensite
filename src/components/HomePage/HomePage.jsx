@@ -38,22 +38,26 @@ const HomePage = () => {
         </div>
         <div className="profile-footer">
           <div className="icons">
-            <IconButton
-              icon="bi bi-github"
-              href="https://github.com/theogguu"
-            />
-            <IconButton
-              icon="bi bi-linkedin"
-              href="https://www.linkedin.com/in/steven-gu/"
-            />
-            <IconButton
-              icon="bi bi-instagram "
-              href="https://www.instagram.com/theogguu/"
-            />
-            <IconButton
-              icon="bi bi-envelope "
-              href="mailto:stevengu2024@u.northwestern.edu"
-            />
+          <IconButton
+                    icon="bi bi-github"
+                    href="https://github.com/theogguu"
+                    alt="Link to Steven's GitHub page"
+                  />
+                  <IconButton
+                    icon="bi bi-linkedin"
+                    href="https://www.linkedin.com/in/steven-gu/"
+                    alt="Linked to Steven's LinkedIn page"
+                  />
+                  <IconButton
+                    icon="bi bi-instagram"
+                    href="https://www.instagram.com/theogguu/"
+                    alt="Link to Steven's Instagram"
+                  />
+                  <IconButton
+                    icon="bi bi-envelope"
+                    href="mailto:stevengu2024@u.northwestern.edu"
+                    alt="Send Email to stevengu2024@u.northwestern.edu"
+                  />
           </div>
           <div className="resume">
             <a href="/steven_gu_resume_fa23.pdf" target="_blank"><i>view my resume!</i></a>
@@ -92,18 +96,22 @@ const HomePage = () => {
                   <IconButton
                     icon="bi bi-github"
                     href="https://github.com/theogguu"
+                    alt="Link to Steven's GitHub page"
                   />
                   <IconButton
                     icon="bi bi-linkedin"
                     href="https://www.linkedin.com/in/steven-gu/"
+                    alt="Linked to Steven's LinkedIn page"
                   />
                   <IconButton
                     icon="bi bi-instagram"
                     href="https://www.instagram.com/theogguu/"
+                    alt="Link to Steven's Instagram"
                   />
                   <IconButton
                     icon="bi bi-envelope"
                     href="mailto:stevengu2024@u.northwestern.edu"
+                    alt="Send Email to stevengu2024@u.northwestern.edu"
                   />
                 </div>
                 <div className="resume">
