@@ -50,7 +50,22 @@ export const cardContents = [
     modalContent: {
       title: "SWE Intern at New Muses Project",
       body: [
-        "Over the summer, I worked as a Software Engineer Intern at New Muses Project, a non-profit organization that aims to provide a platform for artists to share their work. I worked on a team of 3 developers to build a new website for the organization.",
+        "Over the summer, I worked as a Software Engineer Intern at New Muses Project, a non-profit organization that aims to provide a platform to find underrepresented classical composers and for artists to share their work. I worked with my mentor to work on a website overhaul for the organization.",
+        <br></br>,
+        <br></br>,
+        "I was first involved in creating new API endpoints for the MongoDB database developing Python scripts for database backup. One notable project involved crafting a crontab-scheduled script that retrieved the latest database document from the production server, transferred it to the test server (while managing document deletion on the test server), and concluded by sending an email containing the console logs.",
+        <br></br>,
+        <br></br>,
+        "As the internship progressed, my role shifted towards front-end development. I actively contributed to the construction of a Remix component library, aiding in the transition from their existing vanilla-JS-based webpages to Remix-based ones. I learned a lot about HTML/CSS, coding in React-like frameworks, and component refactoring, as well as the importance of accessible design.",
+        <br></br>,
+        <br></br>,
+        "Here was a sample page I built with Remix:",
+        <br></br>,
+        <br></br>,
+        <img
+          src={"/nmp-1.png"}
+          alt={"New Muses Project"}
+          style={{ maxWidth: "100%", height: "auto" }} />
       ],
     },
   },
@@ -110,31 +125,29 @@ export const cardContents = [
         <a href="https://sites.northwestern.edu/campuskitchen/" target="_blank">
           Campus Kitchens NU
         </a>,
-        " is a student-led organization that aims to reduce food waste and food insecurity in the Evanston community by redistributing dining hall food that would otherwise be thrown away. A team of 4 developers and I built a full-stack web application to manage food inventory, shift records, and user records. We built the front-end with React and the back-end with Node.js/Express.js. We used AWS to host our webapp and database.",
+        " is a student-led organization with a mission to reduce food waste and food insecurity within the Evanston community. Our team of four other developers and I collaborated on the creation of an internal-facing full-stack web application. This application was designed to aid volunteers in managing food inventory, shift records, and user information, thereby facilitating the redistribution of dining hall food that would otherwise go to waste.",
         <br></br>,
         <br></br>,
-        "",
+        "In the development process, we utilized React and HTML/CSS for the front-end, while the back-end was crafted using Node.js/Express.js. To ensure seamless hosting and database management, we leveraged AWS RDS and Elastic Beanstalk.",
         <br></br>,
         <br></br>,
-        "Here's a rough diagram of our architecture:",
+        "As part of my role, I spearheaded research and design sprints aimed at gathering valuable client feedback on our prototypes. This experience emphasized the significance of regular and open communication with our client. To bring our ideas to life and receive constructive input, we employed Figma as our tool of choice for drafting and refining prototypes. This collaborative approach proved instrumental in creating a web application that effectively addresses food waste and insecurity concerns in the Evanston community.",
+        <br></br>,
+        <br></br>,
+        "Here was a sample page we built:",
         <br></br>,
         <br></br>,
         <img
-          src={"/photoapp-1.png"}
+          src={"/ckdb-1.png"}
           alt={"photoapp"}
           style={{ maxWidth: "100%", height: "auto" }}
-        />,
-        <br></br>,
-        <br></br>,
-        "For more details (like web service API endpoints), ",
-        <a href="https://github.com/theogguu/aws-photoapp" target="_blank">
-          check out the GitHub repo!
-        </a>,
+        />
       ],
     },
   },
   {
     title: "Rapid Prototyping Projects",
+    time: "October 2023 - November 2023",
     body: "Designed and deployed 3 standalone React webapps in a 6 week time period. Each webapp interacted with Firebase storage and databases and included features like user authorization, unit testing, and CI/CD.",
     href: "https://github.com/theogguu/stevensite-2",
     icon: (
@@ -153,6 +166,30 @@ export const cardContents = [
       "CSS",
       "Bootstrap",
     ],
+    modalContent: {
+      title: "Rapid Prototyping Projects",
+      body: [
+        "Rapid Prototyping is a class at Northwestern University teaches students how to quickly build and deploy webapps. In this class, I built 3 standalone React webapps in a 6 week time period. Each webapp interacted with Firebase storage and databases and included features like user authorization, unit testing, and CI/CD", 
+        <br></br>,
+        <br></br>,
+        "In the development process, we utilized React and HTML/CSS for the front-end, while the back-end was crafted using Node.js/Express.js. To ensure seamless hosting and database management, we leveraged AWS RDS and Elastic Beanstalk.",
+        <br></br>,
+        <br></br>,
+        "As part of my role, I spearheaded research and design sprints aimed at gathering valuable client feedback on our prototypes. This experience emphasized the significance of regular and open communication with our client. To bring our ideas to life and receive constructive input, we employed Figma as our tool of choice for drafting and refining prototypes. This collaborative approach proved instrumental in creating a web application that effectively addresses food waste and insecurity concerns in the Evanston community.",
+        <br></br>,
+        <br></br>,
+        "Here was a sample page we built:",
+        <br></br>,
+        <br></br>,
+        <img
+          src={"/ckdb-1.png"}
+          alt={"photoapp"}
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+      ],
+    }
+    
+
   },
   {
     title: "Portfolio Website",

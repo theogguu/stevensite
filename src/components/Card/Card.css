@@ -12,15 +12,11 @@
   
 .project-card h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
-    color: var(--text-normal);
+    /* color: var(--text-normal); */
 }
 
 .project-card a:hover {
     color: var(--text-highlighted);
-}
-
-.project-card p {
-    color: var(--text-normal);
 }
 
 .project-card:hover {
@@ -33,11 +29,13 @@
 .project-card-heading{
     display: flex;
     justify-content: space-between;
+    color: var(--text-emphasis) !important;
 }
 
 .project-card-subheading{
     margin: 0;
     padding: 0;
+    
 }
 
 .project-card-icon {

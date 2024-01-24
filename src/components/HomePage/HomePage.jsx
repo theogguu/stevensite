@@ -60,7 +60,7 @@ const HomePage = () => {
                   />
           </div>
           <div className="resume">
-            <a href="/steven_gu_resume_fa23.pdf" target="_blank"><i>view my resume!</i></a>
+            <a href="/steven_gu_resume_fa23.pdf" target="_blank"><i><b>view my resume!</b></i></a>
           </div>
         </div>
         <CardList cards={cardContents} openModalAndSetContent={openModalAndSetContent} />
