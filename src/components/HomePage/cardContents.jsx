@@ -139,7 +139,7 @@ export const cardContents = [
         <br></br>,
         <img
           src={"/ckdb-1.png"}
-          alt={"photoapp"}
+          alt={"Campus Kitchens NU Database"}
           style={{ maxWidth: "100%", height: "auto" }}
         />
       ],
@@ -149,13 +149,6 @@ export const cardContents = [
     title: "Rapid Prototyping Projects",
     time: "October 2023 - November 2023",
     body: "Designed and deployed 3 standalone React webapps in a 6 week time period. Each webapp interacted with Firebase storage and databases and included features like user authorization, unit testing, and CI/CD.",
-    href: "https://github.com/theogguu/stevensite-2",
-    icon: (
-      <IconButton
-        icon="bi bi-github"
-        href="https://github.com/theogguu/stevensite-2"
-      />
-    ),
     tags: [
       "Firebase",
       "React",
@@ -169,21 +162,22 @@ export const cardContents = [
     modalContent: {
       title: "Rapid Prototyping Projects",
       body: [
-        "Rapid Prototyping is a class at Northwestern University teaches students how to quickly build and deploy webapps. In this class, I built 3 standalone React webapps in a 6 week time period. Each webapp interacted with Firebase storage and databases and included features like user authorization, unit testing, and CI/CD", 
+        "Rapid Prototyping is a class at Northwestern University teaches students how to quickly build and deploy webapps. In this class, my team and I built 3 standalone React webapps in a 6 week time period. Each webapp interacted with Firebase storage and databases and included features like user authorization, unit testing, and CI/CD.", 
         <br></br>,
         <br></br>,
-        "In the development process, we utilized React and HTML/CSS for the front-end, while the back-end was crafted using Node.js/Express.js. To ensure seamless hosting and database management, we leveraged AWS RDS and Elastic Beanstalk.",
+        "I learned a lot about working in a rapid-paced environment with a small team. Frequent communication and keeping everyone well-informed of our project was critical. I’m proud to say that our bus factor was at the size of our full team of 6 members.",
+<br></br>,
+       <br></br>,
+"We met multiple times a week with my team to work on our project in development sprints. We followed a build-measure-learn framework, where each week, we iteratively built a product, demonstrated it to the class, and learned from peer feedback (as well as internal team member feedback). We evaluated our teamwork and efforts weekly through mood charts and feedback forms.",
         <br></br>,
         <br></br>,
-        "As part of my role, I spearheaded research and design sprints aimed at gathering valuable client feedback on our prototypes. This experience emphasized the significance of regular and open communication with our client. To bring our ideas to life and receive constructive input, we employed Figma as our tool of choice for drafting and refining prototypes. This collaborative approach proved instrumental in creating a web application that effectively addresses food waste and insecurity concerns in the Evanston community.",
+        "The projects we built were SkillSwap, a social app that connects people who want to learn new skills or hobbies, TimeSync, a when2meet-esque app that includes a ‘would rather not meet’ option, and EcoCommute, a social app that helps people find or host carpool requests.",
         <br></br>,
         <br></br>,
-        "Here was a sample page we built:",
-        <br></br>,
-        <br></br>,
+
         <img
-          src={"/ckdb-1.png"}
-          alt={"photoapp"}
+          src={"/rapid-all.png"}
+          alt={"Rapid Prototyping Projects"}
           style={{ maxWidth: "100%", height: "auto" }}
         />
       ],
@@ -191,16 +185,16 @@ export const cardContents = [
     
 
   },
-  {
-    title: "Portfolio Website",
-    body: "I had a lot of fun designing this website!",
-    href: "https://github.com/theogguu/stevensite-2",
-    icon: (
-      <IconButton
-        icon="bi bi-github"
-        href="https://github.com/theogguu/stevensite-2"
-      />
-    ),
-    tags: ["React", "JavaScript", "HTML", "CSS"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   body: "I had a lot of fun designing this website!",
+  //   href: "https://github.com/theogguu/stevensite-2",
+  //   icon: (
+  //     <IconButton
+  //       icon="bi bi-github"
+  //       href="https://github.com/theogguu/stevensite-2"
+  //     />
+  //   ),
+  //   tags: ["React", "JavaScript", "HTML", "CSS"],
+  // },
 ];

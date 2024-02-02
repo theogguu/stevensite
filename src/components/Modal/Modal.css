@@ -1,7 +1,7 @@
 .modal {
     display: block;
     visibility: hidden;
-    padding: 3rem;
+    padding: min(3vh, 3rem);
     color: var(--text-normal);
   }
   .modal-dialog {
@@ -15,7 +15,7 @@
   .modal-content {
     background-color: var(--modal-bg);
     border: none;
-    padding: 1rem;
+    padding: min(1vh, 1rem);
     max-width: 50rem;
     margin: auto;
   }
