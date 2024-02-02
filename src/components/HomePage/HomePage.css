@@ -65,7 +65,7 @@ a {
     position: sticky;
     max-height: 80vh;
     border-radius: 3rem;
-    top: 3rem;
+    top: 5vh;
     background-color: var(--bg-dark-1-alpha);
     text-align: center;
   }
@@ -76,8 +76,8 @@ a {
     margin-right: 5rem; */
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 5vh;
+    padding-bottom: 8vh;
     display: block;
 }
 
@@ -91,7 +91,7 @@ a {
 
 .body {
     color: var(--text-normal);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 2rem;
 }

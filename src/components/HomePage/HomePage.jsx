@@ -84,7 +84,7 @@ const HomePage = () => {
         <div className="row">
           <div className="col-6">
             <div className="sticky-column">
-              <p id="one">Hi, I'm</p>
+              <p id="one">Hi! I'm</p>
               <div className="title">Steven Gu</div>
               <Headshot src="/linkedin.jpg" alt="Steven Gu" size="12rem" />
               <div className="body">
