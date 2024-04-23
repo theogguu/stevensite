@@ -9,7 +9,7 @@
     margin: 5px;
 }
 
-.icon-button a {
+.icon-button button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,9 +17,11 @@
     height: 100%;
     color: inherit;
     transition: inherit;
+    background-color: transparent;
+    border: none;
 }
 
-.icon-button a:hover {
+.icon-button button:hover {
     /* color: #999999; */
     color: var(--text-highlighted);
 }
