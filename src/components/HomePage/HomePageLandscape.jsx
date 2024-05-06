@@ -60,8 +60,10 @@ const HomePageLandscape = ({cardContents, openModalAndSetContent}) => {
       </section>
       <section className="footer">
         <hr></hr>
-        Built with <a href="https://react.dev/"> React</a> and
-        <a href="https://nodejs.org/"> Node.js</a> and deployed with{" "}
+        Built with <a href="https://react.dev/"> React.js</a>, 
+        <a href="https://getbootstrap.com/"> Bootstrap</a>, 
+        <a href="https://reactrouter.com/en/main"> React Router</a>, 
+        and <a href="https://vitest.dev/">Vitest</a> and deployed with{" "}
         <a href="https://firebase.google.com/">Firebase</a>. Favicon generated
         by
         <a href="https://favicon.io/"> favicon.io</a>. Color palette designed by{" "}

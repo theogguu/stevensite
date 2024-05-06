@@ -1,15 +1,14 @@
-# React Vitest Template
+# stevensite
 
-A starter template for building React apps with Vite. Includes Vitest for unit testing and
-a hefty .gitignore file.
+Hey! This is my portfolio website, built with [React.js](https://react.dev/), [React Router](https://reactrouter.com/en/main), and [Bootstrap](https://getbootstrap.com/). It uses [Vitest](https://vitest.dev/) and GitHub Actions for unit testing.
+
+You can view it here at https://www.steven-gu.com.
 
 ## Usage 
 
 ```
-mkdir your-app-name
-cd your-app-name
-npx degit criesbeck/react-vitest
 npm install
+npm run
 ```
 
 ## Test
@@ -28,8 +27,6 @@ Verify that the unit tests work with
 npm test
 ```
 
-Two tests should run and pass. 
-
 ## Scripts
 
 **package.json** defines the following scripts:
@@ -43,34 +40,11 @@ Two tests should run and pass.
 | npm test       | Starts a Jest-like test loop                        |
 
 
-## Git
-
-If everything is working, set up [your local and remote repositories](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git).
-
-## Folder Structure
-
-```
-your-app-name
-├── node_modules
-├── public
-│   ├── favicon.svg
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.jsx
-    ├── index.css
-    ├── index.jsx
-    └── logo.svg
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-```
-
 ## Credits
 
 React-Vitest built and maintained by [Chris Riesbeck](https://github.com/criesbeck).
+
+Design inspired by [Brittany Chiang](https://v4.brittanychiang.com/).
 
 Inspired by [SafdarJamal/vite-template-react](https://github.com/SafdarJamal/vite-template-react).
 Expanded to include Vitest and some sample tests.
