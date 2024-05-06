@@ -2,6 +2,9 @@ import { render, screen } from '@testing-library/react';
 
 import HomePage from '../src/components/HomePage/HomePage';
 import { expect } from 'vitest';
+import { axe, toHaveNoViolations } from 'jest-axe';
+
+expect.extend(toHaveNoViolations)
 
 describe('HomePage component', () => {
     it('renders necessary elements with proper content and attributes', () => {
@@ -16,17 +19,10 @@ describe('HomePage component', () => {
       // Check if profile image is rendered with alt attribute
       expect(screen.getAllByAltText('Steven Gu')).toBeTruthy();
       // expect(screen.getByRole('link', { name: /Link to Steven's GitHub page/i }).toBeInTheDocument());
-      
+    });
 
-      // Check if there are any inaccessible elements
-      const inaccessibleLinks = screen.queryAllByRole('link', { inaccessible: true });
-
-    // Log the details of each inaccessible link
-      inaccessibleLinks.forEach(link => {
-        console.log('Inaccessible link:', link.textContent);
-        console.log('Attributes:', link.attributes);
-        console.log('Computed styles:', window.getComputedStyle(link));
-        console.log('Other relevant information...');
-      });
-      });
+    it('has no accessibility violations', async () => {
+      const { container } = render(<HomePage />);
+      expect(await axe(container)).toHaveNoViolations();
+    });
   });

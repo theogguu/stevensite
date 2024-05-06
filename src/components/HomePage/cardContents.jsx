@@ -78,6 +78,7 @@ export const cardContents = [
       <IconButton
         icon="bi bi-github"
         href="https://github.com/theogguu/aws-photoapp"
+        alt="PhotoApp GitHub Repo"
       />
     ),
     tags: [

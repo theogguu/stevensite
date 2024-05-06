@@ -18,13 +18,13 @@ const Card = ({ title, time, body, icon, href, tags, onClick }) => {
   return (
     <div className="project-card" onClick={handleCardClick}>
       <div className="project-card-heading">
-        <h5>
+        <h3>
           <a href={href} target="_blank">
             <span>{title} </span>
             {href && <i class="bi bi-box-arrow-up-right"></i>}
             {/* render box-arrow icon only if href exists */}
           </a>
-        </h5>
+        </h3>
         {icon && <div className="project-card-icon">{icon}</div>}
       </div>
       <div className="project-card-subheading">

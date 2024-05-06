@@ -28,7 +28,7 @@ const HomePagePortrait = ({cardContents, openModalAndSetContent}) => {
           <IconButton
             icon="bi bi-github"
             href="https://github.com/theogguu"
-            aria-label="Link to Steven's GitHub page"
+            aria-label="Steven's GitHub page"
             alt="GitHub"
             
           />
@@ -36,13 +36,13 @@ const HomePagePortrait = ({cardContents, openModalAndSetContent}) => {
             icon="bi bi-linkedin"
             href="https://www.linkedin.com/in/steven-gu/"
             alt="LinkedIn"
-            aria-label="Link to Steven's LinkedIn page"
+            aria-label="Steven's LinkedIn page"
           />
           <IconButton
             icon="bi bi-instagram"
             href="https://www.instagram.com/theogguu/"
             alt="@theogguu"
-            aria-label="Link to Steven's Instagram page"
+            aria-label="Steven's Instagram page"
           />
           <IconButton
             icon="bi bi-envelope"
@@ -51,9 +51,13 @@ const HomePagePortrait = ({cardContents, openModalAndSetContent}) => {
             aria-label="Email Steven Gu"
           />
         </div>
-
+        
         <div className="resume">
-          <a href="/steven_gu_resume_fa23.pdf" target="_blank" alt="link to Steven's Resume" aria-label="View Steven's Resume"><i>view my resume!</i></a>
+          <a 
+            href="/steven_gu_resume_fa23.pdf" 
+            target="_blank" 
+            alt="Steven's Resume" >
+                <i>view my resume!</i></a>
         </div>
       </div>
     </section>

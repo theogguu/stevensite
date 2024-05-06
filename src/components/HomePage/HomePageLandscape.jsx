@@ -25,17 +25,17 @@ const HomePageLandscape = ({cardContents, openModalAndSetContent}) => {
             <IconButton
                 icon="bi bi-github"
                 href="https://github.com/theogguu"
-                alt="Link to Steven's GitHub page"
+                alt="Steven's GitHub page"
             />
             <IconButton
                 icon="bi bi-linkedin"
                 href="https://www.linkedin.com/in/steven-gu/"
-                alt="Linked to Steven's LinkedIn page"
+                alt="Steven's LinkedIn page"
             />
             <IconButton
                 icon="bi bi-instagram"
                 href="https://www.instagram.com/theogguu/"
-                alt="Link to Steven's Instagram"
+                alt="Steven's Instagram"
             />
             <IconButton
                 icon="bi bi-envelope"
