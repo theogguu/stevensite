@@ -21,7 +21,7 @@ const Card = ({ title, time, body, icon, href, tags, onClick }) => {
         <h3>
           <a href={href} target="_blank">
             <span>{title} </span>
-            {href && <i class="bi bi-box-arrow-up-right"></i>}
+            {href && <i className="bi bi-box-arrow-up-right"></i>}
             {/* render box-arrow icon only if href exists */}
           </a>
         </h3>
