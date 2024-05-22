@@ -44,7 +44,7 @@ const HomePageLandscape = ({cardContents, openModalAndSetContent}) => {
             />
             </div>
             <div className="resume">
-            <a href="/steven_gu_resume_fa23.pdf" target="_blank">
+            <a href="/stevengu_resume_spr24.pdf" target="_blank">
                 <i>
                 <b>view my resume!</b>
                 </i>
