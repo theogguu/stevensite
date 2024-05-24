@@ -1,6 +1,6 @@
 # stevensite
 
-Hey! This is my portfolio website, built with [React.js](https://react.dev/), [React Router](https://reactrouter.com/en/main), and [Bootstrap](https://getbootstrap.com/). It uses [Vitest](https://vitest.dev/) and GitHub Actions for unit testing.
+Hey! This is my portfolio website, built with [React.js](https://react.dev/), [React Router](https://reactrouter.com/en/main), and [Bootstrap](https://getbootstrap.com/). It uses [Vitest](https://vitest.dev/), [Cypress](https://www.cypress.io/) and GitHub Actions for unit testing.
 
 You can view it here at https://www.steven-gu.com.
 
