@@ -26,12 +26,15 @@ const Modal = ({ open, close, children }) => {
         if (evt.target === evt.currentTarget) close();
       }}
       aria-label="Modal Window"
+      data-cy="modal"
     >
       <div className="modal-dialog" role="document">
         <div className="modal-content">
           <div className="modal-header">
             <h2 id="modal-title" aria-label="Modal Title">{children.title}</h2>
-            <IconButton icon="bi bi-x" onClick={close} alt="Close Popup"/>
+            <span data-cy="modal-close-btn">
+              <IconButton icon="bi bi-x" onClick={close} alt="Close Popup"/>
+            </span>
           </div>
           <div className="modal-body">{children.body}</div>
         </div>

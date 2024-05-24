@@ -4,7 +4,7 @@ const CardList = ({ cards, openModalAndSetContent }) => {
   return (
     <>
       {cards.map((card, index) => (
-        <Card key={index} {...card} onClick={() => openModalAndSetContent(card.modalContent)} />
+        <Card key={index} dataCyName={`project-card-${index}`} {...card} onClick={() => openModalAndSetContent(card.modalContent)} />
       ))}
     </>
   );

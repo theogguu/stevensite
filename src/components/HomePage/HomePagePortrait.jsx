@@ -24,7 +24,7 @@ const HomePagePortrait = ({cardContents, openModalAndSetContent}) => {
         </section>
     <section className="My Links">
       <div className="profile-footer">
-        <div className="icons">
+        <div className="icons" data-cy="intro-icons">
           <IconButton
             icon="bi bi-github"
             href="https://github.com/theogguu"
