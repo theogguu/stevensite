@@ -2,7 +2,7 @@ import "./Card.css";
 import IconButton from "../IconButton/IconButton";
 import TagList from "../Tag/TagList";
 
-const Card = ({title, time, body, icon, href, tags, onClick, dataCyName}) => {
+const Card = ({title, time, body, icon, href, tags, onClick, dataCyName, hoverable}) => {
   const handleCardClick = (e) => {
     // Check if the click target is the anchor, if so, let the browser handle it
     if (e.target.tagName.toLowerCase() === "a" && href) {
@@ -16,7 +16,7 @@ const Card = ({title, time, body, icon, href, tags, onClick, dataCyName}) => {
   };
 
   return (
-    <div className="project-card" onClick={handleCardClick} data-cy={dataCyName}>
+    <div className={hoverable ? `project-card hoverable` : `project-card`} onClick={handleCardClick} data-cy={dataCyName}>
       <div className="project-card-heading">
         <h3>
           <a href={href} target="_blank">

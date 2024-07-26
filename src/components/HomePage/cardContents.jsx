@@ -1,6 +1,13 @@
 import IconButton from "../IconButton/IconButton";
 export const cardContents = [
   {
+    title: "Software Test Engineer • GEMMACON NA",
+    href: "https://gemmacon.com/en/",
+    time: "July 2024 - Present",
+    body: 'Currently working as a Software Test Engineer at GEMMACON NA.',
+    tags: ["Python", "Automation", "HIL Testing", "Jira/Confluence"],
+  },
+  {
     title: "Developer • Crafty",
     time: "September 2023 - December 2023",
     body: 'Designed and developed a GPT-powered webservice dedicated to assisting users in crafting woodworking projects by providing users with instructions, materials, and purchase links given a query (e.g. "coffee table").',

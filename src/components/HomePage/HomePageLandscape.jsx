@@ -1,23 +1,11 @@
 import CardList from "../CardList/CardList";
-import Headshot from "../Headshot/Headshot";
 import IconButton from "../IconButton/IconButton";
+import HomePageIntro from "./HomePageIntro";
 
 const HomePageLandscape = ({cardContents, openModalAndSetContent}) => {
   return (
     <div className="d-lg-none container">
-      <section className="intro">
-        <p id="one">Hi, I'm</p>
-        <div className="title">Steven Gu</div>
-        <Headshot src="/linkedin.jpg" alt="Steven Gu" size="12rem" />
-        <div className="body">
-          <hr></hr>
-          <p>
-            I'm a fourth-year student studying Computer Science and Biology at
-            Northwestern University. I'm also an avid home cook, violinist,
-            gamer, and TTRPG enthusiast.
-          </p>
-        </div>
-      </section>
+      <HomePageIntro />
 
       <section className="My Links">
         <div className="profile-footer">

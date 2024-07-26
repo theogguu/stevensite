@@ -19,12 +19,12 @@
     color: var(--text-highlighted);
 }
 
-.project-card:hover {
+.project-card.hoverable:hover {
     background-color: var(--card-highlighted);
     box-shadow: var(--card-shadow);
     cursor: pointer;
     outline: var(--card-outline-highlighted) solid 1px;
-  }
+}
 
 .project-card-heading{
     display: flex;
