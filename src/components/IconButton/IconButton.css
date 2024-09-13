@@ -21,7 +21,7 @@
     border: none;
 }
 
-.icon-button button:hover {
+.icon-button a :hover {
     /* color: #999999; */
     color: var(--text-highlighted);
 }
