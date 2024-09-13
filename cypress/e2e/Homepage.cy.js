@@ -27,7 +27,7 @@ describe('Homepage components render on both views', () => {
 
         cy.viewport('iphone-6')
         cy.get('[data-cy=intro-icons]').children().each(($icon) => {
-            cy.wrap($icon).find('button').should('have.attr', 'href');
+            cy.wrap($icon).find('a').should('have.attr', 'href');
         });
     });
 
