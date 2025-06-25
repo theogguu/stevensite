@@ -4,8 +4,8 @@ export const cardContents = [
     title: "Software Test Engineer • GEMMACON NA",
     href: "https://gemmacon.com/en/",
     time: "July 2024 - Present",
-    body: 'Currently working as a Software Test Engineer at GEMMACON NA.',
-    tags: ["Python", "Automation", "HIL Testing", "Jira/Confluence"],
+    body: 'Currently working as a Software Test Engineer at GEMMACON NA with clients like Porsche and Mercedes-Benz.',
+    tags: ["Python", "Test Automation", "Jira/Confluence"],
   },
   {
     title: "Developer • Crafty",
