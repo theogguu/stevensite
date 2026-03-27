@@ -42,7 +42,7 @@ const HomePagePortrait = ({cardContents, openModalAndSetContent}) => {
         
         <div className="resume">
           <a 
-            href="/stevengu_resume_spr24.pdf" 
+            href="/stevengu_resume.pdf" 
             target="_blank" 
             alt="Steven's Resume" >
                 <i>view my resume!</i></a>
