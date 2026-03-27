@@ -34,6 +34,8 @@ jobs:
     name: Firebase deploy
     needs: [build, cypress]
     runs-on: ubuntu-latest
+    env:
+      GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
@@ -42,4 +44,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm install -g firebase-tools
-      - run: firebase deploy --token "${{ secrets.FIREBASE_DEPLOY_TOKEN }}" --non-interactive
+      - run: |
+          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > /tmp/sa-key.json
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json
+          firebase deploy --non-interactive

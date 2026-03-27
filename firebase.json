@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "stevensite-2",
     "public": "dist",
     "rewrites": [
       {
