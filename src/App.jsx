@@ -4,13 +4,14 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import NotFoundPage from './components/NotFoundPage/NotFoundPage';
-
+import CookingBlog from './components/CookingBlog/CookingBlog';
 
 const Main = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/cooking" element={<CookingBlog/>}/>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>

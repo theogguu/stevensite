@@ -38,7 +38,13 @@ const HomePagePortrait = ({cardContents, openModalAndSetContent}) => {
             alt="stevengu2024@u.northwestern.edu"
             aria-label="Email Steven Gu"
           />
+          <IconButton
+                icon="bi bi-fork-knife"
+                href="/cooking"
+                alt="View Steven's Cooking Blog"
+          />
         </div>
+        
         
         <div className="resume">
           <a 

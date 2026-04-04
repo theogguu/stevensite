@@ -30,6 +30,11 @@ const HomePageLandscape = ({cardContents, openModalAndSetContent}) => {
                 href="mailto:stevengu2024@u.northwestern.edu"
                 alt="Send Email to stevengu2024@u.northwestern.edu"
             />
+            <IconButton
+                icon="bi bi-fork-knife"
+                href="/cooking"
+                alt="View Steven's Cooking Blog"
+            />
             </div>
             <div className="resume">
             <a href="/stevengu_resume.pdf" target="_blank">
@@ -56,7 +61,7 @@ const HomePageLandscape = ({cardContents, openModalAndSetContent}) => {
         by
         <a href="https://favicon.io/"> favicon.io</a>. Color palette designed by{" "}
         <a href="https://www.radix-ui.com/colors"> Radix</a>. Website design
-        inspired by <a href="https://brittanychiang.com/"> Brittany Chang</a>.
+        inspired by <a href="https://brittanychiang.com/"> Brittany Chiang</a>.
       </section>
     </div>
   );

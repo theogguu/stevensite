@@ -10,7 +10,7 @@ const HomePageIntro = () => {
             <p>
                 I currently work as a Software Test Engineer at <a href="https://gemmacon.com/en/">GEMMACON NA</a>.
                 My interests lie in software development and computational and systems biology. 
-                I'm also an avid home cook, violinist, gamer, and TTRPG enthusiast.
+                I'm also an avid <i><a href="/cooking">home cook</a></i>, violinist, gamer, and TTRPG enthusiast.
             </p>
             </div>
       </section>
