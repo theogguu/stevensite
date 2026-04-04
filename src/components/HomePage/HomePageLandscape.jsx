@@ -56,7 +56,7 @@ const HomePageLandscape = ({cardContents, openModalAndSetContent}) => {
         by
         <a href="https://favicon.io/"> favicon.io</a>. Color palette designed by{" "}
         <a href="https://www.radix-ui.com/colors"> Radix</a>. Website design
-        inspired by <a href="https://brittanychiang.com/"> Brittany Chang</a>.
+        inspired by <a href="https://brittanychiang.com/"> Brittany Chiang</a>.
       </section>
     </div>
   );
