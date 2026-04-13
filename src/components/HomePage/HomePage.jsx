@@ -9,6 +9,7 @@ import { cardContents } from './cardContents';
 import HomePageLandscape from './HomePageLandscape';
 import HomePagePortrait from './HomePagePortrait';
 import Navbar from '../Navbar/navbar';
+// import PaletteSwitcher from '../Palettes';
 
 const HomePage = () => {
   const [modalContent, setModalContent] = useState({});

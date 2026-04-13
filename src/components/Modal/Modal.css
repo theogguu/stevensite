@@ -10,6 +10,7 @@
     padding: 1rem;
     max-width: 50rem;
     margin: auto;
+    outline: var(--card-outline-highlighted) solid 1px;
   }
 
   .modal-content {

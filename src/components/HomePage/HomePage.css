@@ -83,7 +83,7 @@ a {
     max-height: 80vh;
     border-radius: 3rem;
     top: 5vh;
-    background-color: var(--bg-dark-1-alpha);
+    /* background-color: var(--bg-dark-1-alpha); */
     text-align: center;
   }
 
