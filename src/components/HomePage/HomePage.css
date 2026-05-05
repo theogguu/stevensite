@@ -160,3 +160,8 @@ a {
     font-size: 1.5rem;
     text-align: left;
 }
+
+#body-intro {
+    text-align: center;
+    text-wrap: balance;
+}

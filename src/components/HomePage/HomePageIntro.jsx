@@ -5,12 +5,12 @@ const HomePageIntro = () => {
             <p id="one">Hi, I'm</p>
             <div className="title">Steven Gu</div>
             <Headshot src="/linkedin.jpg" alt="Steven Gu" size="12rem" />
-            <div className="body">
+            <div className="body" id="body-intro">
             <hr></hr>
             <p>
-                I currently work as a Software Test Engineer at <a href="https://gemmacon.com/en/">GEMMACON NA</a>.
-                My interests lie in software development and computational and systems biology. 
-                I'm also an avid home cook, violinist, gamer, and TTRPG enthusiast.
+                I work as a Systems Integration Engineer at <a href="mbrdna.com"> Mercedes-Benz RDNA</a> and a Software Test Engineer Consultant for <a href="https://gemmacon.us/en/">GEMMACON</a>. My interests lie in software development and computational and systems biology. 
+                
+                <br></br>I'm also an avid home cook, violinist, gamer, and TTRPG enthusiast.
             </p>
             </div>
       </section>

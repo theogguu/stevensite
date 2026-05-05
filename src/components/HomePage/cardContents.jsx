@@ -1,11 +1,25 @@
 import IconButton from "../IconButton/IconButton";
 export const cardContents = [
   {
-    title: "Software Test Engineer • GEMMACON NA",
-    href: "https://gemmacon.com/en/",
+    title: "Systems Integration Engineer • Mercedes-Benz RDNA",
+    href: "https://mbrdna.com/",
+    time: "December 2024 - Present",
+    body: 'Diagnose and resolve critical automotive software defects across Mercedes and NVIDIA vehicle and backend systems, identifying root causes and implementing configuration fixes.',
+    tags: ["Python", "OBD Diagnostics", "Configuration Management", "Debugging", "Software Integration"],
+  },
+  {
+    title: "Automation Test Engineer • Porsche Engineering US",
+    href: "https://www.porscheengineering.com/en/peg/about-us/locations/usa/",
+    time: "July 2024 - December 2024",
+    body: 'Built an internal Python test suite automation project using Pytest on automotive test benches, writing smoke, regression, and functional tests covering navigation, voice assistant, and car alarm functions.',
+    tags: ["Python", "Test Automation", "Pytest", "HIL Testing", "Software Testing"],
+  },
+  {
+    title: "Software Developer in Test Consultant • GEMMACON NA",
+    href: "https://gemmacon.us/",
     time: "July 2024 - Present",
-    body: 'Currently working as a Software Test Engineer at GEMMACON NA with clients like Porsche and Mercedes-Benz.',
-    tags: ["Python", "Test Automation", "API Testing", "Jira/Confluence"],
+    body: 'Currently working as a Software Test Engineer at GEMMACON NA with clients like Porsche Engineering, Mercedes-Benz, and NVIDIA.',
+    tags: ["Python", "Test Automation", "Jira/Confluence"],
   },
   {
     title: "Developer • Crafty",
@@ -51,9 +65,9 @@ export const cardContents = [
   {
     title: "Software Engineer Intern • New Muses Project",
     time: "July 2023 - September 2023",
-    body: "Designed Remix components adhering to design specifications to standardize future webpage development. Developed Flask-based APIs for front-end to MongoDB back-end interaction and automated MongoDB backups.",
+    body: "Automated a continuous integration and deployment (CI/CD) pipeline with Cypress unit tests on GitHub Actions. Designed Remix components adhering to design specifications to standardize future webpage development. Developed Flask-based APIs for front-end to MongoDB back-end interaction and automated MongoDB backups.",
     href: "https://www.newmusesproject.com/",
-    tags: ["Remix", "React", "MongoDB", "Flask", "JavaScript", "HTML", "CSS"],
+    tags: ["Cypress", "CI/CD", "Remix", "React", "MongoDB", "Flask", "JavaScript", "HTML", "CSS"],
     modalContent: {
       title: "SWE Intern at New Muses Project",
       body: [
@@ -61,6 +75,9 @@ export const cardContents = [
         <br></br>,
         <br></br>,
         "I was first involved in creating new API endpoints for the MongoDB database developing Python scripts for database backup. One notable project involved crafting a crontab-scheduled script that retrieved the latest database document from the production server, transferred it to the test server (while managing document deletion on the test server), and concluded by sending an email containing the console logs.",
+        <br></br>,
+        <br></br>,
+        "Another project I worked on involved created a continuous integration and deployment pipeline with Cypress unit tests on GitHub Actions.",
         <br></br>,
         <br></br>,
         "As the internship progressed, my role shifted towards front-end development. I actively contributed to the construction of a Remix component library, aiding in the transition from their existing vanilla-JS-based webpages to Remix-based ones. I learned a lot about HTML/CSS, coding in React-like frameworks, and component refactoring, as well as the importance of accessible design.",
