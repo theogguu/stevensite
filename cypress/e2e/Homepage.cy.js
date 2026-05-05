@@ -3,12 +3,12 @@
 describe('Homepage components render on both views', () => {
     it ('should have render more than 2 cards', () => {
         cy.visit('/');
-        cy.get('[data-cy=project-card-0]').should('exist');
-        cy.get('[data-cy=project-card-1]').should('exist');
+        cy.get('[data-cy=project-card-hoverable-0]').should('exist');
+        cy.get('[data-cy=project-card-hoverable-1]').should('exist');
 
         cy.viewport('iphone-6')
-        cy.get('[data-cy=project-card-0]').should('exist');
-        cy.get('[data-cy=project-card-1]').should('exist');
+        cy.get('[data-cy=project-card-hoverable-0]').should('exist');
+        cy.get('[data-cy=project-card-hoverable-1]').should('exist');
     });
 
     it ('should render the intro icons', () => {

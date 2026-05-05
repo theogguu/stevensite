@@ -12,16 +12,23 @@ npm run
 ```
 
 ## Test
+### Cypress
 
-Verify that the initial app works. Run
-
+Verify that the Cypress tests work with
 ```
 npm start
 ```
+and
+```
+npx cypress run
+```
 
-and open the URL displayed.
-
-Verify that the unit tests work with
+### Vitest
+Verify that the Vitest unit tests work with
+```
+npm start
+```
+and
 
 ```
 npm test
