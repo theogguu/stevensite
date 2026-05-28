@@ -10,7 +10,7 @@ const HomePageIntro = () => {
             <p>
                 I work as a Systems Integration Engineer at <a href="mbrdna.com"> Mercedes-Benz RDNA</a> and a Software Test Engineer Consultant for <a href="https://gemmacon.us/en/">GEMMACON</a>. My interests lie in software development and computational and systems biology. 
                 
-                <br></br>I'm also an avid home cook, violinist, gamer, and TTRPG enthusiast.
+                <br></br>I'm also an avid home cook, amateur photographer, and TTRPG enthusiast.
             </p>
             </div>
       </section>
