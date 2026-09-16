@@ -1,0 +1,12 @@
+.headshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.headshot img{
+    border-radius: 50%;
+    object-fit: cover;
+}

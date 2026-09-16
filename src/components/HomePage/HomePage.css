@@ -31,14 +31,20 @@ html {
 }
 
 body {
-    height: 100%;
-    animation: moveBackground 100s infinite linear;
-    background-image:  radial-gradient(var(--bg-dots) 1.15px, transparent 1.15px), radial-gradient(var(--bg-dots) 1.15px, var(--bg-dark-1) 1.15px);
-    background-size: 46px 46px; 
-    background-attachment: fixed; 
-    opacity: 1;
-    overflow: auto;
+  height: 100%;
+  overflow: auto;
 }
+
+body.bg-animated {
+  animation: moveBackground 100s infinite linear;
+  background-image: 
+  radial-gradient(var(--bg-dots) 1.15px, transparent 1.15px),
+                     radial-gradient(var(--bg-dots) 1.15px, var(--bg-dark-1) 1.15px)
+                     ;
+  background-size: 46px 46px;
+  background-attachment: fixed;
+}
+
 h1 {
     font-size: 2rem;
 }
